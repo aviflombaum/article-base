@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/GeistVariableVF.woff2") format("woff2"),
+    url("/fonts/GeistVariableVF.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 @layer components {
   main {
     @apply w-full max-w-2xl mx-auto mt-12 md:w-2/3;
